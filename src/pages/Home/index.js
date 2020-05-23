@@ -2,11 +2,9 @@ import React from 'react';
 
 function Home() {
     return (
-        <React.Fragment>
-            <>
-                Donate
-            </>
-        </React.Fragment>
+        <h1>
+            Donate
+        </h1>
     )
 }
 
