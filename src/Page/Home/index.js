@@ -2,10 +2,10 @@ import React from 'react';
 
 function Home() {
     return (
-        <h1>
+        <div className="App">
             Donate
-        </h1>
-    )
+        </div>
+    );
 }
 
 export default Home;
