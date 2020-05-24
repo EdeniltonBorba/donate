@@ -1,11 +1,15 @@
 import React from 'react';
-import { LogoStyle } from './styles.js';
+import { LogoStyle, LogoText } from './styles.js';
 
 function Logo() {
     return (
         <div>
             <LogoStyle>
-                Donate
+                <div>
+                    <LogoText>
+                        DONATE
+                    </LogoText>
+                </div>
             </LogoStyle>
         </div>
     );
