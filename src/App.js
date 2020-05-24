@@ -9,13 +9,15 @@ import Home from './Page/Home/index.js';
 export default function App() {
   return (
     <Router>
-      <div>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
+      <React.Fragment>
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </React.Fragment>
     </Router>
   );
 }
