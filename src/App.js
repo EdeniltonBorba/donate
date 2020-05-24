@@ -5,11 +5,13 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Page/Home/index.js';
+import GlobalStyle from '../src/styles/Global.js';
 
 export default function App() {
   return (
     <Router>
       <React.Fragment>
+        <GlobalStyle />
         <div>
           <Switch>
             <Route exact path="/">
