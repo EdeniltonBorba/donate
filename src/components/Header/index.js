@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderStyle } from './styles.js';
+import { HeaderStyle, IconStyle } from './styles.js';
 import Logo from '../Logo/index.js';
 
 function Header() {
@@ -7,6 +7,7 @@ function Header() {
         <div>
             <HeaderStyle>
                 <Logo />
+                <IconStyle />
             </HeaderStyle>
         </div>
 
