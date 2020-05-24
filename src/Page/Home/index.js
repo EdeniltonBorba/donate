@@ -1,10 +1,9 @@
 import React from 'react';
+import Header from '../../components/Header/index.js';
 
 function Home() {
     return (
-        <>
-            Donate
-        </>
+        <Header />
     );
 }
 
