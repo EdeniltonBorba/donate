@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderStyle, IconStyle } from './styles.js';
+import { HeaderStyle, IconStyle, } from './styles.js';
 import Logo from '../Logo/index.js';
 
 function Header() {
