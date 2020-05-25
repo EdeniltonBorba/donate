@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import img from '../../assets/image/facebook1.png';
+import ImgBody from '../../assets/image/image1.jpg';
 
 export const HeaderStyle = styled.header`
 display: flex;
@@ -23,4 +24,8 @@ export const IconStyle = styled.div`
  background-image: url(${img});
  width: 40px;
  height: 40px;
+`;
+
+export const BodyStyle = styled.div`
+ background: url(${ImgBody});
 `;
