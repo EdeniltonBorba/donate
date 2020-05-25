@@ -11,6 +11,10 @@ box-sizing: border - box;
 flex-shrink: 0;
 flex-direction: column;
 height: 60px;
+color: #FFFFFF;
+    box-shadow: none;
+    padding-top: 25px;
+    background-color: transparent !important;
 `;
 
 export const IconStyle = styled.div`
