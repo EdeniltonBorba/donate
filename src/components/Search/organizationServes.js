@@ -48,7 +48,7 @@ export default function CountrySelect() {
             renderInput={(params) => (
                 <TextField
                     {...params}
-                    label="Organizations home country"
+                    label="Countries the organization serves"
                     variant="outlined"
                     inputProps={{
                         ...params.inputProps,
