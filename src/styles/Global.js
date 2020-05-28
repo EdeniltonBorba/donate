@@ -14,4 +14,10 @@ html, body, #root {
   height:100%;
 }
 
+body {
+  font: 14px 'Open Sans', sans-serif;
+  background: #ecf1f8;
+  color: #333;
+  -webkit-font-smoothing: antialiased !important;
+}
 `;
