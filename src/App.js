@@ -1,15 +1,23 @@
 import React from 'react';
-import GlobalStyle from './styles/global';
-import Header from './components/Header';
-import Main from './components/Main';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Home from './home/index.js';
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <Main />
-
-      <GlobalStyle />
-    </>
+    <Router>
+      <React.Fragment>
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </React.Fragment>
+    </Router>
   );
 }
