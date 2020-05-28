@@ -1,16 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
-const GlobalStyle = createGlobalStyle` 
-  * {    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
-  }
-  body {
-    background: #ecf0f1;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    font-family:'Open Sans', sans-serif !important;
-  }
+
+export default createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  outline:0;
+  box-sizing:border-box;
+}
+
+html, body, #root {
+  height:100%;
+}
+
 `;
-export default GlobalStyle;
