@@ -1,21 +1,11 @@
 import React from 'react';
-import { HeaderStyle, IconStyle, } from './styles.js';
-import Logo from '../Logo/index.js';
-import GridContainer from '../Grid/GridContainer.js';
 
-function Header() {
+import { Container } from "./styles";
+
+export default function Header() {
     return (
-        <div>
-            <GridContainer>
-                <HeaderStyle>
-                    <Logo />
-                    <IconStyle />
-                </HeaderStyle>
-            </GridContainer>
-        </div>
-
+        <Container>
+            <h1>Donate</h1>
+        </Container>
     );
 }
-
-export default Header;
-

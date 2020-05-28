@@ -1,31 +1,11 @@
 import styled from 'styled-components';
-import img from '../../assets/image/facebook1.png';
-import ImgBody from '../../assets/image/image1.jpg';
 
-export const HeaderStyle = styled.header`
+export const Container = styled.div`
+height: 80px;
+padding: 0 30px;
+background:#7159c1;
+color:#fff;
+
 display: flex;
-background-color: #a4b0be;
-position: relative;
-width: 100%;
-z-index: 1100;
-box-sizing: border - box;
-flex-shrink: 0;
-flex-direction: column;
-height: 60px;
-color: #FFFFFF;
-    box-shadow: none;
-    padding-top: 25px;
-    background-color: transparent !important;
-`;
-
-export const IconStyle = styled.div`
- background-size: cover;
- background-position: top;
- background-image: url(${img});
- width: 40px;
- height: 40px;
-`;
-
-export const BodyStyle = styled.div`
- background: url(${ImgBody});
+align-items: center;
 `;
