@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
 color:#fff;
 font-size: 30px;
+width:1100px;
+
 div {
 
 }
@@ -13,4 +15,5 @@ display:flex;
 background: #ffffff;
 height:100px;
 border-radius: 3px;
+
 `;
