@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 height: 80px;
-padding: 0 30px;
-color:#fff;
+color:#f50057;
 background-color: transparent !important;
 display: flex;
 align-items: center;
+margin-left:60px;
 `;
