@@ -13,5 +13,4 @@ padding: 0;
 overflow: hidden;
 position: relative;
 max-height: 1000px;
-align-items: center;
 `;
