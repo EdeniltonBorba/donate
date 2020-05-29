@@ -16,7 +16,7 @@ html, body, #root {
 
 body {
   font: 14px 'Open Sans', sans-serif;
-  background: #ecf1f8;
+  background: #f1f2f6;
   color: #333;
   -webkit-font-smoothing: antialiased !important;
 }
