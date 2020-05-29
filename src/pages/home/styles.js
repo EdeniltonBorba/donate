@@ -14,4 +14,6 @@ overflow: hidden;
 position: relative;
 max-height: 1000px;
 grid-template-rows:20vh 80vh;
+align-items: center;
+justify-content: space-between;
 `;

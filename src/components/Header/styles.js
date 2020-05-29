@@ -7,4 +7,5 @@ color:#fff;
 background-color: transparent !important;
 display: flex;
 align-items: center;
+grid-row-start:1;
 `;

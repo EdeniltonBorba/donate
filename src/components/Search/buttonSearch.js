@@ -5,7 +5,10 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
-            margin: theme.spacing(1),
+            margin: theme.spacing(0),
+            width: "200px",
+            height: "-webkit-fill-available",
+            fontSize: "x-large",
         },
     },
 }));
