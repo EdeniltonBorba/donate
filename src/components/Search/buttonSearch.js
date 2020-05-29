@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
             width: "200px",
             height: "-webkit-fill-available",
             fontSize: "x-large",
+            cursor: "pointer",
         },
     },
 }));
