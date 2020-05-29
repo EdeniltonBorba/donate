@@ -1,6 +1,8 @@
 import React from 'react';
 import CountrySelect from '../Search/countrySelect.js';
 import OrganizationSearch from '../Search/organizationSearch.js';
+import OrganizationServes from '../Search/organizationServes.js'
+import ButtonSearch from '../Search/buttonSearch';
 import { Container, Search } from './styles.js';
 
 export default function Main() {
@@ -14,7 +16,8 @@ export default function Main() {
                 <Search>
                     <OrganizationSearch />
                     <CountrySelect />
-                    <CountrySelect />
+                    <OrganizationServes />
+                    <ButtonSearch />
                 </Search>
             </Container>
         </>
