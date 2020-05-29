@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
 color:#fff;
 font-size: 30px;
+width:100%;
+h1 {
+    margin-top: 50px;
+    margin-left:40px;
+}
 `;
 
 export const Search = styled.div`

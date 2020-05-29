@@ -9,10 +9,10 @@ export default function Main() {
     return (
         <>
             <Container>
-                <div>
-                    <h1>You can change the world.</h1>
-                    <h1>DONATE gives you all the tools to do it</h1>
-                </div>
+                <h1>
+                    <p>You can change the world.</p>
+                    <p>DONATE gives you all the tools to do it</p>
+                </h1>
                 <Search>
                     <OrganizationSearch />
                     <CountrySelect />

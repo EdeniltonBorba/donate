@@ -8,7 +8,6 @@ background-position: center center;
 border: 0;
 height: 85vh;
 margin: 0;
-display: grid;
 padding: 0;
 overflow: hidden;
 position: relative;
