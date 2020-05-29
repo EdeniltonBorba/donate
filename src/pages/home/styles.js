@@ -6,7 +6,7 @@ background-image: url(${img});
 background-size: cover;
 background-position: center center;
 border: 0;
-height: 90vh;
+height: 85vh;
 margin: 0;
 display: flex;
 padding: 0;
