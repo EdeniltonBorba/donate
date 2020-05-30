@@ -15,7 +15,7 @@ display:flex;
 background: #ffffff;
 height:100px;
 border-radius: 5px;
-width:1100px;
+width:1150px;
 align-items: center;
 margin: auto;
 margin-top: 80px;
