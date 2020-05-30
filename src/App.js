@@ -16,7 +16,7 @@ export default function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path="board">
+            <Route exact path="/board">
               <Board />
             </Route>
           </Switch>
