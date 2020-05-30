@@ -13,12 +13,8 @@ export default function App() {
       <React.Fragment>
         <div>
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/board">
-              <Board />
-            </Route>
+            <Route exact path="/"><Home /></Route>
+            <Route exact path="/board"><Board /></Route>
           </Switch>
         </div>
       </React.Fragment>
