@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './pages/home/index.js';
+import Board from './pages/board/index.js';
 
 export default function App() {
   return (
@@ -14,6 +15,9 @@ export default function App() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route exact path="board">
+              <Board />
             </Route>
           </Switch>
         </div>
