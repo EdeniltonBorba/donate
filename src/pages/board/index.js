@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { query } from 'express';
+import React, { Component } from 'react';
 import API from '../../utils/API';
+import ButtonSearch from '../../components/Search/buttonSearch.js';
 
 
-export default function Board() {
+class Board extends Component {
     state = {
         result: {},
         search: ""
@@ -28,15 +28,22 @@ export default function Board() {
         this.searchProject(this.state.search);
     };
 
-    return (
-        <React.Fragment>
-            <h3>Result</h3>
-            <hr />
-            <ul>
-                <li>Organization name</li>
-                <li>Organizations home country</li>
-                <li>Countries the organization serves</li>
-            </ul>
-        </React.Fragment>
-    );
+    render() {
+        return (
+            <React.Fragment>
+                <ButtonSearch
+                    value={this.state.search}
+                    handleInputChange={this.handleInputChange}
+                    handleFormSubmit={this.handleFormSubmit} />
+                <h3>Result</h3>
+                <hr />
+                <ul>
+                    <li>Organization name</li>
+                    <li>Organizations home country</li>
+                    <li>Countries the organization serves</li>
+                </ul>
+            </React.Fragment>
+        );
+    }
 }
+export default OmdbContainer;
