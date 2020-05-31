@@ -46,4 +46,4 @@ class Board extends Component {
         );
     }
 }
-export default OmdbContainer;
+export default Board;
